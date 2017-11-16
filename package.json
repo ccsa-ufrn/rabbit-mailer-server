@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ccsa-ufrn/rabbit-mailer-server/issues"
   },
-  "homepage": "https://github.com/ccsa-ufrn/rabbit-mailer-server#readme"
+  "homepage": "https://github.com/ccsa-ufrn/rabbit-mailer-server#readme",
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  }
 }
