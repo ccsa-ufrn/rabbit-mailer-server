@@ -1,0 +1,9 @@
+{
+    "host": "amqp://localhost",
+    "queue": "email",
+    "smtp": {
+        "server": "smtp-server",
+        "user": "smtp-user",
+        "password": "smtp-password"
+    }
+}
