@@ -1,13 +1,14 @@
 {
   "name": "rabbit-mailer",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A email delivering service based on AMQP protocol",
   "main": "src/main.js",
   "bin": {
     "rabbit-mailer": "./bin/server"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"postinstall": "./install"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,11 @@
+[Unit]
+Description=Rabbit Mailer server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/lib/node_modules/rabbit-mailer/bin/server --config /usr/lib/node_modules/rabbit-mailer/config.json
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target

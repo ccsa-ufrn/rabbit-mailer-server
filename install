@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cp service/rabbit-mailer.service /etc/systemd/system
+cp service/rabbit-mailer.service /lib/systemd/system
+sudo systemctl daemon-reload
+sudo systemctl start rabbit-mailer.service
