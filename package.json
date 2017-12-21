@@ -1,8 +1,8 @@
 {
-  "name": "rabbit-mailer-server",
+  "name": "rabbit-mailer",
   "version": "1.0.0",
-  "description": "send message to rabbitmq queue",
-  "main": "index.js",
+  "description": "A email delivering service based on AMQP protocol ",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/ccsa-ufrn/rabbit-mailer-server.git"
   },
-  "author": "Thayrone Santos",
-  "license": "ISC",
+  "keywords": [
+    "rabbitmq",
+    "email-sender",
+    "node-mailer",
+    "amqp"
+  ],
+  "author": "CCSA / UFRN",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/ccsa-ufrn/rabbit-mailer-server/issues"
   },
   "homepage": "https://github.com/ccsa-ufrn/rabbit-mailer-server#readme",
   "dependencies": {
-    "amqplib": "^0.5.2"
+    "amqplib": "^0.5.2",
+    "node-mailer": "^0.1.1"
   }
 }
