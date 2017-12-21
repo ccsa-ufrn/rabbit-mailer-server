@@ -1,0 +1,12 @@
+version: '3'
+services:
+    rabbitmq:
+        image: "rabbitmq:3"
+        ports:
+            - "15672:15672"
+    rmailer-s:
+        depends_on:
+            - "rabbitmq"
+        build: .
+        links:
+            - "rabbitmq"

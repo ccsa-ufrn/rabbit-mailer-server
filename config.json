@@ -1,2 +1,17 @@
 {
+    "amqp": {
+        "protocol": "amqp",
+        "hostname": "localhost",
+        "port": 15672
+    },
+    "queueName": "mail",
+    "smtp": {
+        "host": "your STMP host here",
+        "port": 587,
+        "secure": false,
+        "auth": {
+            "user": "username",
+            "pass": "password"
+        }
+    }
 }
